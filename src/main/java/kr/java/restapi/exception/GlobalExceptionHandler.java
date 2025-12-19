@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
  * - API 컨트롤러의 모든 예외를 일관된 JSON으로 응답
  */
 @Slf4j
-@RestControllerAdvice(basePackages = "com.example.restapi.web.api")
+@RestControllerAdvice(basePackages = "kr.java.restapi.controller")
 public class GlobalExceptionHandler {
 
     // 404 Not Found
